@@ -6,11 +6,13 @@ nome cpf data de nsacimento altura filho ou n e emprego atual*/
 #include <stdlib.h>
 
 // teste de mudança 14-01-23
- 
+int main(){
+	char nome[20], cpf[20], datNs[20], empAtual[20];
+	float alt;
 	char flhs[20];
 	
 	printf("seja bem vindo.\n por favor insira os dados pedidos: \n insira o seu nome.");
-	scanf("%s", &nome);
+	scanf("%s", nome);
 	printf("agora insira seu cpf:\n");
 	scanf("%s", cpf);
 	printf("agora por gentileza insira sua data de nascimento:\n");
@@ -20,7 +22,7 @@ nome cpf data de nsacimento altura filho ou n e emprego atual*/
 	printf("O senhor(a) tem filhos(digite S para sim e N para nao)\n");
 	scanf("%s", flhs);
 	printf("para finalizar digite seu emprego atual:\n");
-	scanf("%s", &empAtual);
+	scanf("%s", empAtual);
 	printf("\n\n");
 	
 	
