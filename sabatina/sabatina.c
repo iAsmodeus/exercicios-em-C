@@ -5,7 +5,9 @@ nome cpf data de nsacimento altura filho ou n e emprego atual*/
 #include <stdio.h>
 #include <stdlib.h>
 
-// teste de mudança 21-01-23
+// teste de mudança 21-01-24
+// "outro comentario"
+// terceiro comentario
 int main(){
 	char nome[20], cpf[20], datNs[20], empAtual[20];
 	float alt;
